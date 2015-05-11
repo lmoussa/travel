@@ -1,0 +1,14 @@
+<h1>hey main thing</h1>
+
+
+<p><%= @homeland %></p>
+
+<ul>
+  <% @countries.each do |country| %>
+    <li><%= country %></li>
+  <% end %>
+</ul>
+<% @images.each do |image| %>
+<%= image_tag image%>
+<% end %>
+
